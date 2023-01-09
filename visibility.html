@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var :root{--primary-color}</title>
+    <style>
+       :root{
+        --primary-color:red;
+        --secondary-color:rgb(25, 233, 6);
+       }
+       h1{
+        color:var(--primary-color);
+       }
+       #heading-3{
+        border:2px solid var(--primary-color);
+        
+       }
+       p{
+        border-bottom: 3px solid var(--primary-color);
+       }
+       .box{
+        background-color: var(--primary-color);
+       }
+       h3{
+        color:var(--secondary-color);
+       }
+       .pond{
+        color:var(--secondary-color);
+       }
+    </style>
+</head>
+<body>
+    <h1 class="heading" id="heading-1">My Strong Heading-1</h1>
+    <h1 class="heading" id="heading-1">My Strong Heading-1</h1>
+    <h1 class="heading" id="heading-1">My Strong Heading-1</h1>
+    <h1 class="heading" id="heading-1">My Strong Heading-1</h1>
+    <p>my simple talk</p>
+    <div>
+        <h3>My boxing box</h3>
+    </div>
+    <div>
+        <p class="pond"> abcdefghijklmnopqrstuvwxyz</p>
+    </div>
+</body>
+    
+</html>
